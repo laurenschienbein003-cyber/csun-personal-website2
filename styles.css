@@ -32,9 +32,13 @@ main {
 }
 
 .portrait {
-  width: 120px;
-  height: 120px;
+  width: 150px;        /* controls HOW BIG the picture appears */
+  height: 150px;       /* keeps it a perfect circle */
+  object-fit: cover;   /* prevents stretching */
+  border-radius: 50%;  /* makes it round */
+  border: 3px solid #ffffff;
 }
+
 
 
 .intro-text h1 {
