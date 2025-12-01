@@ -108,3 +108,10 @@ tbody tr:nth-child(even) {
     color: #ffffff;
     font-size: 0.85rem;
 }
+.portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
