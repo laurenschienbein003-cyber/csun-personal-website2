@@ -109,9 +109,7 @@ tbody tr:nth-child(even) {
     font-size: 0.85rem;
 }
 .portrait {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 120px;
+    height: 120px;
 }
 
